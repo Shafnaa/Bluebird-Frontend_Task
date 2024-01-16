@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entities */
 "use client";
 import TextBox from "@/components/TextBox";
 import AuthTemplate from "@/components/template/AuthTemplate";
