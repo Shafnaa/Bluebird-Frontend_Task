@@ -64,7 +64,7 @@ export const users: userType[] = [
       name: "Teknik Elektro",
       faculty: "Teknik",
     },
-    imageUrl: "/saujana.jpg",
+    imageUrl: "/nopal.jpeg",
   },
   {
     id: "b641197346b58df2",
@@ -75,7 +75,7 @@ export const users: userType[] = [
       name: "Matematika",
       faculty: "Matematika & IPA",
     },
-    imageUrl: "/saujana.jpg",
+    imageUrl: "/daffa.jpeg",
   },
   {
     id: "6baba791810b3787",
@@ -86,6 +86,30 @@ export const users: userType[] = [
       name: "Bahasa Inggris",
       faculty: "Ilmu & Budaya",
     },
-    imageUrl: "/saujana.jpg",
+    imageUrl: "/bijak.jpeg",
+  },
+];
+
+export const bookmarks = [
+  {
+    id: 1,
+    userId: "6baba791810b3787",
+    postId: "eb962964735f85cd",
+  },
+];
+
+export const myPosts = [
+  {
+    id: 1,
+    userId: "6baba791810b3787",
+    postId: "4cda028d4454f1b1",
+  },
+];
+
+export const myRequests = [
+  {
+    id: 1,
+    userId: "6baba791810b3787",
+    postId: "eb962964735f85cd",
   },
 ];

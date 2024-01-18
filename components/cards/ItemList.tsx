@@ -10,7 +10,7 @@ const ItemList = ({ item }: { item: postType }) => {
   return (
     <li>
       <Link
-        href={`/post/`}
+        href={`/post/${item.id}`}
         className="flex flex-row items-stretch gap-2.5 px-2 py-1.5 bg-white rounded-2xl shadow-lg hover:shadow-2xl"
       >
         <Image
@@ -18,7 +18,7 @@ const ItemList = ({ item }: { item: postType }) => {
           height={64}
           src={`${user?.imageUrl}`}
           alt="name"
-          className="rounded-full"
+          className="rounded-full object-fill"
         />
         <div className="flex flex-col flex-1 justify-between items-start text-xs overflow-hidden">
           <div className="flex flex-row flex-1 self-stretch justify-between">

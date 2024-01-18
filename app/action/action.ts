@@ -19,3 +19,7 @@ export function getAllPosts({
 export function findUserById(id: string) {
   return users.find((user) => user.id == id);
 }
+
+export function findPostById(id: string) {
+  return posts.find((post) => post.id == id);
+}

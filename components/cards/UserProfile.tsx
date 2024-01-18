@@ -1,4 +1,5 @@
 "use client";
+import { findUserById } from "@/app/action/action";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 import React from "react";
@@ -14,7 +15,7 @@ const UserProfile = () => {
     <div className="flex flex-col gap-2 px-3 py-6 text-white bg-secondary-foreground rounded-2xl">
       <div className="flex justify-center items-center">
         <Image
-          src="/saujana.jpg"
+          src={"/bijak.jpeg"}
           alt="profile"
           width={128}
           height={128}

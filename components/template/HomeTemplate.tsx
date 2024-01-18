@@ -1,6 +1,7 @@
 import Navbar from "@/components/navigation/Navbar";
 import SearchBar from "@/components/navigation/SearchBar";
 import React from "react";
+import CreateButton from "../button/CreateButton";
 
 const HomeTemplate = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -9,6 +10,7 @@ const HomeTemplate = ({ children }: { children: React.ReactNode }) => {
         <SearchBar />
         {children}
       </div>
+      <CreateButton />
       <Navbar />
     </>
   );
